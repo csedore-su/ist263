@@ -1,0 +1,45 @@
+h1{
+    color:#ff0000
+    /* hex color requires pound sign */
+    /* six digits starting wth red, green then blue */
+}
+
+/* these three selectors are psuedo selectors */
+/* colon separates the selector from it's state */
+
+a:link{
+    color:#00ff00
+}
+a:visited{
+    color:#0000ff
+}
+
+a:hover{
+    color:#8000ff;
+    background-color:#ffffff;
+}
+.lookdifferent:hover{color:#999999}
+/* above uses an class selector with the psuedo state */
+.lookdifferent{
+    border: 1px solid#000000;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* inline elements box will not create space height-wise */
+body{
+    background-image: url(images/LI-Logo.png);
+    background-size: 100%;
+    background-color: #c9c9ab;
+}
+/* background color for entire page */
+
+p{
+    background-color: #ffffff;
+    margin: 10px; /* this is the area outside the box */
+    padding: 10px; /* this is the space immediately around the content */
+    border: 5px solid#aaaa;  /* this is a shortcut property with multiple values */
+    width: 300px;
+}
+/* width of the box + the margin x 2 + border x 2 + padding x 2 */
+/* 300 + 20 + 20 + 10 = 350 pixels */
