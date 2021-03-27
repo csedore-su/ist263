@@ -3,9 +3,10 @@ body{color:#ffffff ;
 h1, h2, h3{color: #FF5113;}
 h1 {font-size: xx-large;}
 h2 {font-size: x-large;}   
-li a{ color: #032263;
-} 
+li a{ color: #032263;} 
 li a:hover {color:#ff5113;}
+nav{background-color: #032263}
+nav a {color: #FF5113;}
 
 
 
