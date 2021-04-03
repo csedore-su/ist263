@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <style>
+         .part1{background-color: navy;border-radius: 15px; overflow: auto;margin-bottom: 30px;margin-left: 30px;margin-right: 30px; }
+         .address {float: left;padding-left: 20px;}
+         .linkedin{float: right; position: relative; left:-800px;}
+         .clear{clear: both}
+
+         .part2{display: flex; background-color:navy;border-radius: 15px;margin-left: 30px; margin-right: 30px;}
+         .form{flex: 1;order: 1; padding-top: 75px; margin-left: 50px}
+         .map{flex: 2;order: 2;padding-top: 25px;margin-left: 45px;}
+
+     </style>
+     <title>Contact Information</title>
+     <link rel="stylesheet" href="../lab07/styles.css">
+    </head> 
+
+    <body>
+        <nav>
+            <a href="https://csedore-su.github.io/ist263/lab07/">Home</a> |
+            <a href="https://csedore-su.github.io/ist263/lab04/skills.html">Skills</a> |
+            <a href="https://csedore-su.github.io/ist263/lab04/contact.html">Contact</a> 
+      
+      </nav>
+        <h1>Contact</h1>
+        <div class="part1">
+            <div class="address">
+                <h2>Address:</h2>
+            <p>
+            Caleb Sedore<br>
+            Syracuse University<br>
+            900 South Crouse Ave<br>
+            Syracuse, NY 13244
+            </p>
+            </div>
+            <diV class="linkedin">
+                <p>Linkedin and Email:</p>
+            <p>
+            <a href="https://www.linkedin.com/in/calebsedore/" target="_blank">LinkedIn Profile<img src="../images/logosized.png" alt="LinkedIn Profile"></a><br>
+            <a href="mailto:csedore@syr.edu">Email</a>
+                </p>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="part2">
+            <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.1082723585905!2d-76.13730448452208!3d43.03915337914708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1614873817314!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+            </div>
+            <div class="form">
+            <form action="mailto:csedore@syr.edu" method="POST">
+  
+                <label for="firstname">Type your first name:</label>
+                <input type="text" name="firstname" id="firstname"><br>
+                <p>Do you have a position in mind that Caleb may be interested in?<br>
+                <input type="radio" name="yesorno" id="yes" value="yes">
+                <label for="yes">yes</label>
+                <input type="radio" name="helpful?" id="no" value="no">
+                <label for="no">no</label><br></p>
+
+                <label for="comments">Please leave some information about the position:</label><br>
+                <textarea name="comments" id="comments" rows="3" cols="50">Enter text here.</textarea><br>
+                <input type="submit" value="submit form">
+                </form>
+            </div>
+        </div>
+     </body>
+                
+</html> 
+
+
+
+
