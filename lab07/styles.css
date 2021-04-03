@@ -9,3 +9,5 @@ nav{background-color: #032263}
 nav a {color: #FF5113;}
 nav{padding: 10px;}
 nav{margin-bottom: 30px;} 
+a:link{color: #FF5113;}
+a:visited{color:gray;}
