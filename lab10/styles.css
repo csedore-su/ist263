@@ -1,0 +1,25 @@
+body{color:#ffffff ;
+    background-color: #5F6A72;}
+h1, h2, h3{color:#FF6347;}
+h1 {font-size: xx-large;}
+h2 {font-size: x-large;}   
+li a{ color: #032263;} 
+nav a:hover {background-color:#5F6A72;}
+nav{background-color: #032263}
+nav a {color: #FF6347;}
+nav{padding: 10px;}
+nav{margin-bottom: 30px;} 
+a:link{color: #FF6347;}
+a:visited{color:gray;}
+
+
+@media only screen and (max-width:768px) {
+    nav :link{width: 100%;
+        display: block; 
+        padding-top: 5px;
+        padding-bottom: 5px;       
+    }
+    span {display: none;}
+ 
+    
+}
