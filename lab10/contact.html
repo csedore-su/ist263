@@ -13,6 +13,19 @@
          .form{flex: 1;order: 1; padding-top: 75px; margin-left: 50px}
          .map{flex: 2;order: 2;padding-top: 25px;margin-left: 45px;}
 
+         #skipbutton{
+        position: absolute;
+        /* position based on top left of viewport */
+        left: -999px;
+        /* means the element is off screen */
+        border-color: white;
+        border: 1px solid black;
+    }
+    /* when the item is tabbed to */ 
+    #skipbutton:focus{position: absolute;
+    left: 10px;
+    }
+
      </style>
      <title>Contact Information</title>
      <link rel="stylesheet" href="../lab10/styles.css">
@@ -23,6 +36,7 @@
             <a href="https://csedore-su.github.io/ist263/lab07/">Home</a> <span>|</span>
             <a href="https://csedore-su.github.io/ist263/lab04/skills.html">Skills</a> <span>|</span>
             <a href="https://csedore-su.github.io/ist263/lab08/contact.html">Contact</a> 
+            <a href="#maincontent">Skip to Conent</a>
       
       </nav>
         <h1>Contact</h1>
@@ -54,7 +68,7 @@
   
                 <label for="firstname">Type your first name:</label>
                 <input type="text" name="firstname" id="firstname"><br>
-                <p>Do you have a position in mind that Caleb may be interested in?<br>
+               <p>Do you have a position in mind that Caleb may be interested in?<br>
                 <fieldset>
                 <input type="radio" name="yesorno" id="yes" value="yes">
                 <label for="yes">yes</label>
