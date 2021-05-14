@@ -10,6 +10,7 @@ nav{padding: 10px;}
 nav{margin-bottom: 30px;} 
 a:link{color: white;}
 a:visited{color:red;}
+h1 h2 h3 {font-family: 'Lato', sans-serif;}
 
 @media only screen and (max-width:768px) {
     nav :link{width: 100%;
