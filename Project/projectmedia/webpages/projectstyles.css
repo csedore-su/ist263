@@ -1,5 +1,7 @@
 body{color:white ;
-    background-color:#767554;}
+    background-color:#767554;
+    margin-left: 100px;
+    margin-right: 100px;}
 h1, h2, h3{color:black;}
 h1 {font-size: xx-large;}
 h2 {font-size: x-large;}   
@@ -7,11 +9,37 @@ li a{ color: #032263;}
 nav a:hover {background-color:gray;}
 nav{background-color: #141c15}
 nav{padding: 10px;}
-nav{margin-bottom: 30px;} 
+nav{margin-bottom: 100px; text-align: center;} 
 a:link{color: white;}
 a:visited{color:red;}
 h1 h2 h3 {font-family: 'Lato', sans-serif;}
-
+.flexbox, .list1, .list2{display: flex;}
+.list1{flex: 2;}
+.list2{flex: 1;}
+.title1 {
+    font-size: large;
+     font-family: 'Lato', sans-serif;
+     color: black;
+     text-align: center;
+    }
+.title2 {
+        font-size: large;
+         font-family: 'Lato', sans-serif;
+         color: black;
+         margin-right: 75px;
+        }
+.center1{margin-right: 50px;}
+#skipbutton{
+    position: absolute;
+    /* position based on top left of viewport */
+    left: -999px;
+    /* means the element is off screen */
+    border-color: white;
+    border: 1px solid black;
+}
+/* when the item is tabbed to */ 
+#skipbutton:focus{position: absolute;
+left: 10px;}
 @media only screen and (max-width:768px) {
     nav :link{width: 100%;
         display: block; 
@@ -22,4 +50,5 @@ h1 h2 h3 {font-family: 'Lato', sans-serif;}
     img {max-width: 100%;}
     h1 {float: left;}
     h2 {clear: both;}
-}
+    .title1{clear: both;}
+    .title2{clear: both;}}
