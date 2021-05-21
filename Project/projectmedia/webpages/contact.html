@@ -2,6 +2,7 @@
 <html>
     <head>
      <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Contact Information</title>
      <link rel="stylesheet" href="../webpages/projectstyles.css">
      <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
@@ -13,17 +14,22 @@
    
     .flexbox1{display: 1; margin-left: 150px; margin-right: 25px;}
     .map{display: 2;}
-    /* img {max-width: 100%;}
-    .map{display: 4;}
-         .map{
-                margin-top: 25px;
-                margin-bottom: 25px;
-             ;
-            }*/
             h1 {text-align:center;margin-top: -75px;}
             .p1{font-size: large;}
            .p2{margin-top: -20px;}
-
+    
+           @media only screen and (max-width:768px) {
+            nav :link{width: 100%;
+                display: block; 
+                padding-top: 5px;
+                padding-bottom: 5px;       
+            }
+            .flex{margin-left: -200px;}
+            img{display: none}
+            .map2{display: none;}
+            .form{float: right;}
+        }
+        hr{margin-top: 400px;}
      </style>
     </head> 
 
@@ -32,7 +38,8 @@
             <a href="https://csedore-su.github.io/ist263//Project/projectmedia/webpages/home.html#maincontent">Home</a> <span>|</span>
             <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/smallmouthbass.html#maincontent">Smallmouth Bass</a> <span>|</span>
             <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/largemouthbass.html#maincontent">Largemouth Bass</a> <span>|</span>
-            <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/northernpike.html#maincontent">Northern Pike</a> 
+            <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/northernpike.html#maincontent">Northern Pike</a> <span>|</span>
+            <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/contact.html">Contact Author</a> 
             <a id="skipbutton" href="#maincontent">Skip to Content</a>
       </nav>
 
@@ -50,7 +57,9 @@
             </p>
         </div>
             <div class="map">
+                <div class="map2">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23127.629097716923!2d-76.14472908508102!3d43.56584916394399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d83526b15eb3e9%3A0x2f162f5132763f13!2sPulaski%2C%20NY%2013142!5e0!3m2!1sen!2sus!4v1621547467916!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             <form class="form" action="mailto:csedore@syr.edu" method="POST">
   
                 <label for="firstname">Type your first name:</label>
@@ -67,6 +76,15 @@
                 </form>
             </div>
             </div>
+            <hr>
+            <footer>
+                <p> 
+                &copy; 2021 - Wishing you great weather and tight lines! Photo Source: https://www.maine.gov/ifw/fish-wildlife/fisheries/species-information/largemouth-bass.html
+        
+                </p>
+                
+            </footer>
+            </body>
      </body>
                 
 </html> 
