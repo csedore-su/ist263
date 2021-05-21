@@ -9,10 +9,29 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 <style>
-  
-body {
+
+h1 { margin-top: -75px;
     text-align: center;
 }
+.box1{float: left; margin-right: 25px;}
+.paragraph{margin-right: 25px;}
+.clear{clear: both;}
+hr{margin-top: 200px;}
+    @media only screen and (max-width:768px) {
+    nav :link{width: 100%;
+        display: block; 
+        padding-top: 5px;
+        padding-bottom: 5px;       
+    }
+    span {display: none;}
+
+    h1 {text-align: center;}
+    h2 {clear: both;}
+    .flex{clear: both};
+    .paragraph{max-width: 100%;}
+    .clear{margin-bottom: 50px;}
+    hr{margin-top: -30px;}
+    }
 </style>
     </head>
     <body>
@@ -20,23 +39,31 @@ body {
             <a href="https://csedore-su.github.io/ist263//Project/projectmedia/webpages/home.html#maincontent">Home</a> <span>|</span>
             <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/smallmouthbass.html#maincontent">Smallmouth Bass</a> <span>|</span>
             <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/largemouthbass.html#maincontent">Largemouth Bass</a> <span>|</span>
-            <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/northernpike.html#maincontent">Northern Pike</a> 
+            <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/northernpike.html#maincontent">Northern Pike</a> <span>|</span>
+            <a href="https://csedore-su.github.io/ist263/Project/projectmedia/webpages/contact.html">Contact Author</a>  
             <a id="skipbutton" href="#maincontent">Skip to Content</a>
       
       </nav>
         <h1>Welcome to the Central NY Fishing Wiki!</h1>
+    <div class="flex">
+        <div class="box1">
         <img src="../850271.gif" alt="logo" class="center">
         <a id="maincontent"></a>
-        <p>
-           Here you will find information on several types of game fish commonly found in Central New York waters. Please use the navigation bar at the top of the page to learn more information about each type of fish.
-        </p>
-        
+        </div>
+        <div class="box2">
+        <p class="paragraph">
+           Here you will find information on several types of game fish commonly found in Central New York waters. Please use the navigation bar at the top of the page to learn more information about each type of fish. If you find this website helpful please use the "Contact Author" tab to provide feedback and suggest what fish species should be added next.
+        </p><br>
+    </div>
+    
+    <div class="clear">
+        <br>
         <hr>
     <footer>
         <p> 
-        &copy; 2021 - Wishing you great weather and tight lines! Photo Source: http://clipart-library.com/clipart/850271.htm
+        &copy; 2021 - Wishing you great weather and tight lines! Photo Source: http://clipart-library.com/clipart/850271.html
         </p>
-        
     </footer>
+    </div>
     </body>
 </html>
